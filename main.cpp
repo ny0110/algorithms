@@ -173,7 +173,7 @@ int main() {
     cout << "Введите значение для удаления: ";
     cin >> deleteValue;
     tree.deleteNode(tree.root, deleteValue);
-    cout << "Обход по порядку после удаленния " << deleteValue << ": ";
+    cout << "Обход по порядку после удаления " << deleteValue << ": ";
     tree.traverseInOrder(tree.root);
     cout << endl;
 
